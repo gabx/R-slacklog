@@ -33,7 +33,7 @@ myUser <- slackrUsers()[,1:2, with = FALSE]
 
 # get data into a R object
 # take #random, now and Thu, 05 Feb 2015 00:00:00 GMT as time frame
-myJson <- fromJSON('https://slack.com/api/channels.history?token=xoxp-2316142248-3083607128-3429647163-f2f7c4&channel=C029A467L&oldest=1423094400&pretty=1')
+myJson <- fromJSON('https://slack.com/api/channels.history?token=xoxp-XXXXXXXXXXXXX&channel=C029A467L&oldest=1423094400&pretty=1')
                    
 
 ## DATA TIDYING
